@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#101820"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="18dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DOMA"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="3dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Assistente Wear OS"
+            android:textSize="10sp"
+            android:textColor="#B0BEC5"
+            android:gravity="center"
+            android:layout_marginBottom="8dp"/>
+
+        <ListView
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:divider="#455A64"
+            android:dividerHeight="1dp"
+            android:focusable="false"
+            android:scrollbars="none"/>
+
+        <Button
+            android:id="@+id/btnVerificarAudio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Verificar áudio"
+            android:textSize="11sp"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/btnComandoVoz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Comando de voz"
+            android:textSize="11sp"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/btnLerMensagem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ler mensagem"
+            android:textSize="11sp"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/btnAlertaSeguranca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alerta de segurança"
+            android:textSize="11sp"
+            android:textAllCaps="false"
+            android:backgroundTint="#B71C1C"
+            android:textColor="#FFFFFF"/>
+
+        <Button
+            android:id="@+id/btnPermitirNotificacoes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Permitir notificações"
+            android:textSize="11sp"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/btnCriarNotificacao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Criar notificação"
+            android:textSize="11sp"
+            android:textAllCaps="false"
+            android:backgroundTint="#008577"
+            android:textColor="#FFFFFF"/>
+
+        <Button
+            android:id="@+id/btnConfigurarBluetooth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Configurar Bluetooth"
+            android:textSize="11sp"
+            android:textAllCaps="false"/>
+
+    </LinearLayout>
+</ScrollView>
